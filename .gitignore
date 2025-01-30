@@ -1,0 +1,34 @@
+# Diretório de build
+/bin/
+/out/
+build/
+
+# Dependências do módulo Go
+/pkg/mod/
+go.sum
+
+# Binários compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Arquivos temporários e caches
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Diretórios de cache do Go
+/.cache/
+/tmp/
+
+# Testes de cobertura
+coverage.out
+
+# Configurações de IDEs e editores comuns
+.vscode/
+.idea/
+*.iml
+.DS_Store
